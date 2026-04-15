@@ -7,17 +7,18 @@ import {
   DiMongodb,
   DiGit,
   DiJava,
+  DiPython,
 } from "react-icons/di";
 import {
   SiFirebase,
+  SiTypescript,
   SiMysql,
   SiTailwindcss,
-  SiRedux,
   SiBootstrap,
-  SiShadcnui,
-  SiElectron,
+  SiJest,
+  SiHtml5,
+  SiCss3,
   SiPostgresql,
-  SiJest 
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 
@@ -26,52 +27,49 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiElectron />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJest />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaAws />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiShadcnui />
-      </Col>
-       <Col xs={4} md={2} className="tech-icons">
-        <SiJest />
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <FaAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
       </Col>
     </Row>
   );

@@ -2,38 +2,38 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
+  SiGit,
   SiPostman,
-  SiVite,
   SiJira,
+  SiGithub,
   SiEclipseide,
-  SiWoocommerce,
-  SiAppwrite,
-  SiXcode,
-  SiMacos,
-  SiDocker 
+  SiDocker,
+  SiJenkins,
+  SiGitlab,
+  SiSonarqube,
 } from "react-icons/si";
-import { FaWindows, FaLinux } from "react-icons/fa";
+import { FaWindows, FaLinux, FaApple } from "react-icons/fa";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <FaWindows />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaApple />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <SiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiXcode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiEclipseide />
@@ -45,13 +45,13 @@ function Toolstack() {
         <SiJira />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVite />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAppwrite />
+        <SiJenkins />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWoocommerce />
+        <SiSonarqube />
       </Col>
     </Row>
   );

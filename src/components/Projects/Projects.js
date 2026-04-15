@@ -24,9 +24,9 @@ function Projects() {
             <ProjectCard
               imgPath={gameholic}
               isBlog={false}
-              title="Gameholic"
-              description="Here you can Browse all the Related information about games whether it is a PC game anything and you can choose from multiple categories I have used Free-to-Play Games Database API from Rapid API with React.js and React Bootstrap."
-              ghLink="https://github.com/mdAwesuddin/gameholic"
+              title="Capstone"
+              description="Here you can browse customer details, track business opportunities, and resolve support tickets in a centralized CRM platform."
+              ghLink="https://github.com/VasanthiSirikonda/Capstone"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -35,10 +35,10 @@ function Projects() {
             <ProjectCard
               imgPath={jntuhapp}
               isBlog={false}
-              title="JNTUH Notes App"
-              description="It is Build with an Open-Source Tool called App Smith where you can build your websites and Customize the website. JNTUH Notes App for engineering students where they can download the notes related to the subject in form of pdf file."
-              ghLink=""
-              demoLink="https://app.appsmith.com/app/jntuh-notes/home-6292423bb4c51656bfeabee9"
+              title="Library-Management-System"
+              description="Developed a full-stack Library Management System with an interactive analytics dashboard (bar, line, pie charts, and tables) and modules for books, members, transactions, and users, supporting full CRUD operations and integrated Generative AI chatbot for intelligent user assistance."
+              ghLink="https://github.com/VasanthiSirikonda/Library-Management-System"
+              // demoLink="https://app.appsmith.com/app/jntuh-notes/home-6292423bb4c51656bfeabee9"
             />
           </Col>
 
@@ -46,9 +46,9 @@ function Projects() {
             <ProjectCard
               imgPath={Newsworld}
               isBlog={false}
-              title="Newsworld"
-              description="Newsworld is the News feeding web app it is build using React.js and for styling bootstrap build using NEWS API which feeds the live news from all over the web structred in different news categories for user convience and users can search the news articles for search section."
-              ghLink="https://github.com/mdAwesuddin/NewsApp-Reactjs"
+              title="SRE-Postmortem"
+              description="Engineered an SRE Blameless Postmortem Artifact Management platform to centralize incident records and operational insights, featuring advanced search capabilities, severity-based dashboards, PDF reporting, role-based access control, and a Gemini-powered chatbot for intelligent query handling."
+              ghLink="https://github.com/VasanthiSirikonda/SRE-Postmortem"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
@@ -57,10 +57,21 @@ function Projects() {
             <ProjectCard
               imgPath={todolist}
               isBlog={false}
-              title="My-Todolist"
-              description="My-Todolist is a modern, efficient, and user-friendly application designed to help you manage your daily tasks with ease. Built using React.js for its powerful and flexible UI capabilities and Bootstrap for sleek and responsive design, this app offers a seamless experience across all devices."
-              ghLink="https://github.com/mdAwesuddin/TodoApp-Reactjs-"
-              demoLink="https://mytodolist5.netlify.app/"
+              title="Employee-Management-App"
+              description="Built a scalable Employee Management System supporting employee management, timesheet logging, and task tracking with full CRUD functionality, integrated with role-based access control and reporting dashboards."
+              ghLink="https://github.com/VasanthiSirikonda/Employee-Management-App"
+              // demoLink="https://mytodolist5.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todolist}
+              isBlog={false}
+              title="SpreadSheetApp"
+              description="Engineered a spreadsheet platform with capabilities including multi-sheet management, real-time cell editing, formatting tools (bold, alignment, currency, percentage), interactive dashboard, and backend integration for persistent storage and data export."
+              ghLink="https://github.com/VasanthiSirikonda/SpreadSheetApp"
+              // demoLink="https://mytodolist5.netlify.app/"
             />
           </Col>
 

@@ -12,7 +12,7 @@ function Home() {
     (async function () {
       cal = await getCalApi();
       cal("floatingButton", {
-        calLink: "mohammed-awesuddin/15min",
+        calLink: "vasanthi-sirikonda/15min",
         config: {
           name: "Jhon",
           email: "jhon@example.com",
@@ -56,7 +56,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Awesuddin Mohammed</strong>
+                <strong className="main-name"> Vasanthi Sirikonda</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
