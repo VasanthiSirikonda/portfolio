@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -22,7 +22,7 @@ function Home2() {
               <br />
               <br />who fell in ❤️ with
               <i>
-                <b className="purple"> Java, Javascript and AWS. </b>
+                <b className="purple"> ReactJS, Javascript and Python. </b>
               </i>
               <br />
               <br />
@@ -31,7 +31,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Cloud Computing.
+                  Data.
                 </b>
               </i>
               <br />
