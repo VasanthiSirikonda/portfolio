@@ -10,7 +10,6 @@ import {
   DiPython,
 } from "react-icons/di";
 import {
-  SiFirebase,
   SiTypescript,
   SiMysql,
   SiTailwindcss,
@@ -19,6 +18,11 @@ import {
   SiHtml5,
   SiCss3,
   SiPostgresql,
+  SiStreamlit,
+  SiElasticsearch,
+  SiSpring,
+  SiPostman,
+  SiKibana,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 
@@ -70,6 +74,21 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpring />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKibana />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElasticsearch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStreamlit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
       </Col>
     </Row>
   );

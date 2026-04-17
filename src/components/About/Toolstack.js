@@ -11,6 +11,7 @@ import {
   SiJenkins,
   SiGitlab,
   SiSonarqube,
+  SiKibana,
 } from "react-icons/si";
 import { FaWindows, FaLinux, FaApple } from "react-icons/fa";
 
@@ -52,6 +53,15 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSonarqube />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKibana />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
       </Col>
     </Row>
   );
