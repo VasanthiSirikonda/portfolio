@@ -106,7 +106,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://code-craft-chronicles.vercel.app/"
+                href="https://vasanthi-sirikonda-myblog.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
